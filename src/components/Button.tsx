@@ -18,7 +18,7 @@ export default function Button(props: ButtonProps) {
       onClick={onClick}
     >
       <span className="font-semibold text-white">{label}</span>
-      <Arrow className="w-10 lg:w-[70px] h-auto  " />
+      <Arrow className="w-10 lg:w-14 h-auto  " />
     </button>
   );
 }
