@@ -8,7 +8,7 @@ import Logo from "../icons/Logo";
 function Header() {
   const [open, setOPen] = useState(false);
   return (
-    <div className="w-full  py-3 border relative rounded-b-4xl ">
+    <div className="w-full  py-3 border relative lg:rounded-b-4xl z-10 ">
       {/* <Container className="flex items-center justify-between pt-0! "> */}
       {/* <Logo className="w-[150px] h-auto " /> */}
       {/* </Container> */}
