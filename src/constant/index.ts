@@ -1,4 +1,4 @@
-import type { HeaderLinks, LinkType } from "../../Types";
+import type { HeaderLinks, LinkType, ProductDataTypes } from "../../Types";
 
 export const headerData: HeaderLinks[] = [
   [
@@ -41,3 +41,82 @@ export const headerData2: LinkType[] = [
     href: "#engagement",
   },
 ];
+
+export const productData: ProductDataTypes = {
+  vanilla: [
+    {
+      name: "Vanille Noire Gourmet",
+      imgSrc: "/images/product/vanilla-1.webp",
+      description:
+        "Gousses souples Brillantes et riches en vanilline,  Parfaites pour  la gastronomie.",
+    },
+    {
+      name: "Vanille TK (Tout-venant)",
+      imgSrc: "/images/product/vanilla-2.webp",
+      description: " Gousses plus sèches Idéales pour l’extraction.",
+    },
+    {
+      name: "Vanille Rouge US",
+      imgSrc: "/images/product/vanilla-3.webp",
+      description: " Qualité export adaptée au marché américain.",
+    },
+    {
+      name: "Vanille Rouge EU",
+      imgSrc: "/images/product/vanilla-4.webp",
+      description: "Conforme aux normes européennes avec traçabilité garantie.",
+    },
+    {
+      name: "Vanille Cuts",
+      imgSrc: "/images/product/vanilla-5.webp",
+      description:
+        "Morceaux de gousses destinés à l’industrie agroalimentaire.",
+    },
+  ],
+  spices: [
+    {
+      name: "Poivre Sauvage (Tsiperifery)",
+      imgSrc: "/images/product/vanilla-4.webp",
+      description: "rare et aromatique, au parfum boisé et citronné.",
+    },
+    {
+      name: "Poivre Noir",
+      imgSrc: "/images/product/vanilla-4.webp",
+      description:
+        "goût intense, parfait pour assaisonner les plats du quotidien.",
+    },
+    {
+      name: "Baie Rose",
+      imgSrc: "/images/product/vanilla-4.webp",
+      description:
+        "goût intense, parfait pour assaisonner les plats du quotidien.",
+    },
+    {
+      name: "Ail Séché",
+      imgSrc: "/images/product/vanilla-4.webp",
+      description:
+        "pur et savoureux, utilisé dans la cuisine traditionnelle et moderne.",
+    },
+    {
+      name: "Curcuma",
+      imgSrc: "/images/product/vanilla-4.webp",
+      description:
+        "d’un jaune éclatant, aux vertus antioxydantes et parfum doux.",
+    },
+    {
+      name: "Gingembre",
+      imgSrc: "/images/product/vanilla-4.webp",
+      description: "racine piquante et aromatique, fraîche ou séchée",
+    },
+    {
+      name: "Combava",
+      imgSrc: "/images/product/vanilla-4.webp",
+      description:
+        "zeste parfumé et feuilles aromatiques, typiques de Madagascar.",
+    },
+    {
+      name: "Coriandre",
+      imgSrc: "/images/product/vanilla-4.webp",
+      description: "graines et feuilles, au goût frais et citronné.",
+    },
+  ],
+};
