@@ -1,11 +1,12 @@
 import Container from "../Container"
+import { aboutUsData } from "../../constant"
 
 
 export default function AboutUs() {
     return (
         <section className="bg-[#914B2E] rounded-4xl pb-4">
             <Container className="flex flex-col gap-2 text-white font-light">
-                <div className="flex flex-col gap-8 md:block">
+                <div className="flex flex-col gap-8 md:gap-4">
                     <div className="flex flex-col md:flex-row items-center gap-4 w-full">
                         <div className="w-full md:w-1/2">
                             <p>
@@ -15,24 +16,26 @@ export default function AboutUs() {
                             </p>
                         </div>
                         <div className="w-full md:w-1/2">
-                            <img src="/aboutUs_1.webp" alt="About us pics" className="w-[300px] md:w-[555px]" />
+                            <img src="/images/aboutUs/aboutUs_1.webp" alt="About us pics" className="w-[300px] md:w-[555px]" />
                         </div>
                     </div>
                     <div className="flex flex-col-reverse md:flex-row items-center gap-4 w-full">
                         <div className="w-full md:w-1/2">
-                            <img src="/aboutUs_2.webp" alt="About us pics" className="w-[300px] md:w-[555px]" />
+                            <img src="/images/aboutUs/aboutUs_2.webp" alt="About us pics" className="w-[300px] md:w-[555px]" />
                         </div>
-                        <div className="w-full md:w-1/2">
+                        <div className="flex flex-col gap-8 w-full md:w-1/2">
                             <div className="flex items-center gap-4">
-                                <img src="target_ico.png" alt="Target icon" className="w-[70px]" />
-                                <h6 className="font-semibold">Notre mission</h6>
+                                <img src="/images/aboutUs/target_ico.png" alt="Target icon" className="w-[35px] lg:w-[70px]" />
+                                <h6 className="font-bold text-xl md:text-2xl">Notre mission</h6>
                             </div>
-
-                            <p>
-                                Bienvenue chez JM EXPORT, exportateur de vanille et d&apos;épices de Madagascar.
-                                Nous sommes spécialisés dans la collecte, la préparation, le conditionnement
-                                et l&apos;exportation de  produits naturels de haute qualité.
-                            </p>
+                            {aboutUsData.map((items, i) => (
+                                <div key={i} className="flex items-center gap-4">
+                                    <img src="/images/vanilla_list.png" alt="vanilla" className="w-[20px] md:w-[40px]"/>
+                                    <p>
+                                        {items}
+                                    </p>
+                                </div>
+                            ))}
                         </div>
                     </div>
                     <div className="flex flex-col md:flex-row items-center gap-4 w-full">
@@ -46,7 +49,7 @@ export default function AboutUs() {
                             </p>
                         </div>
                         <div className="w-full md:w-1/2">
-                            <img src="/aboutUs_3.webp" alt="About us pics" className="w-[300px] md:w-[555px]" />
+                            <img src="/images/aboutUs/aboutUs_3.webp" alt="About us pics" className="w-[300px] md:w-[555px]" />
                         </div>
                     </div>
                 </div>
