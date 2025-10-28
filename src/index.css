@@ -11,5 +11,5 @@
 
 html,
 body {
-  @apply text-base md:text-lg bg-white text-black overflow-x-hidden scroll-smooth min-h-screen;
+  @apply text-base md:text-lg bg-white text-black overflow-x-hidden scroll-smooth min-h-screen font-manrope;
 }
