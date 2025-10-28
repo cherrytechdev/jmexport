@@ -1,3 +1,4 @@
+import Hero from "./components/Hero";
 import Header from "./layout/Header";
 import AboutUs from "./components/section/AboutUs";
 
@@ -5,6 +6,7 @@ function App() {
   return (
     <>
       <Header />
+      <Hero />
       <div className="h-screen"></div>
       <AboutUs/>
     </>
