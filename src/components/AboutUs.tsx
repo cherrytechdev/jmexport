@@ -1,11 +1,24 @@
-import Container from "../Container"
-import { aboutUsData } from "../../constant"
+import Container from "./Container"
+import { aboutUsData } from "../constant"
+import VanillaWhite from "../icons/VanillaWhite"
 
 
 export default function AboutUs() {
     return (
         <section className="bg-[#914B2E] rounded-4xl pb-4">
             <Container className="flex flex-col gap-2 text-white font-light">
+                <div className="flex flex-col items-start ">
+                    <div className="flex flex-col items-center ">
+                        <h2 className="text-5xl font-bold text-white text-balance ">
+                            À propos<span className="text-accent"> de nous</span>
+                        </h2>
+                        <div className="flex items-center gap-2 ">
+                            <span className="flex h-0.5 w-20 md:w-[100px] bg-white/50 "></span>
+                            <VanillaWhite className="w-[50px] md:w-20 " />
+                            <span className="flex h-0.5 w-20 md:w-[100px] bg-white/50 "></span>
+                        </div>
+                    </div>
+                </div>
                 <div className="flex flex-col gap-8 md:gap-4">
                     <div className="flex flex-col md:flex-row items-center gap-4 w-full">
                         <div className="w-full md:w-1/2">
@@ -30,7 +43,7 @@ export default function AboutUs() {
                             </div>
                             {aboutUsData.map((items, i) => (
                                 <div key={i} className="flex items-center gap-4">
-                                    <img src="/images/vanilla_list.png" alt="vanilla" className="w-[20px] md:w-[40px]"/>
+                                    <img src="/images/vanilla_list.png" alt="vanilla" className="w-[20px] md:w-[40px]" />
                                     <p>
                                         {items}
                                     </p>
