@@ -199,7 +199,7 @@ export default function AboutUs() {
   );
 
   return (
-    <section ref={sectionRef} className="bg-[#914B2E] rounded-4xl pb-4">
+    <section id="about" ref={sectionRef} className="bg-[#914B2E] rounded-4xl pb-4">
       <Container className="flex flex-col gap-2 text-white font-light">
         {/* Titre et décoration */}
         <div className="flex flex-col items-start">
