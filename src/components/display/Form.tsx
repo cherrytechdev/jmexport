@@ -21,20 +21,20 @@ function Form() {
       className="w-full flex flex-col gap-4"
     >
       <div className="w-full">
-        <Input placeholder="Adresse e-mail" register={register("name")} />
+        <Input placeholder="Nom" register={register("name")} />
         {errors.name && (
           <p className="text-accent text-sm pl-5 ">{errors.name.message}</p>
         )}
       </div>
 
       <div className="w-full">
-        <Input placeholder="Mot de passe" register={register("email")} />
+        <Input placeholder="Email" register={register("email")} />
         {errors.email && (
           <p className="text-accent text-sm pl-5 ">{errors.email.message}</p>
         )}
       </div>
       <div className="w-full">
-        <TextArea placeholder="Mot de passe" register={register("message")} />
+        <TextArea placeholder="Message" register={register("message")} />
         {errors.message && (
           <p className="text-accent text-sm pl-5 ">{errors.message.message}</p>
         )}

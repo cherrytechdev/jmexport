@@ -6,6 +6,7 @@ import Form from "./display/Form";
 function Contact() {
   return (
     <div
+      id="contact"
       style={{ backgroundImage: "url(/images/contact-bg.webp)" }}
       className="bg-cover bg-center rounded-3xl ld:rounded-[100px] relative overflow-hidden lg:rounded-[100px] py-10  "
     >

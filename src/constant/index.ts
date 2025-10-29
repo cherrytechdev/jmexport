@@ -61,29 +61,29 @@ export const footerDataLink = [
   },
   {
     label: "Contactez nous",
-    href: "#engagement",
+    href: "#contact",
   },
-]
+];
 
 export const footerDataAdress = [
   "Villa Miranda, Secteur N°10, Maherifody , (206) Antalaha , MAADAGASCAR",
   "contact@jmexport.mg",
   "+261 32 95 068 27",
-  "jmexport.mg"
-]
+  "jmexport.mg",
+];
 
 export const aboutUsData = [
   "Promouvoir la qualité et la diversité des produits malgaches",
   "Soutenir les communautés rurales",
-  "Offrir un service professionnel et transparent à nos partenaires"
-]
+  "Offrir un service professionnel et transparent à nos partenaires",
+];
 
 export const commitmentData = [
   "Sélection rigoureuse des matières premières",
   "Contrôle qualité à chaque étape",
   "Emballage soigné et respect des normes d’exportation",
-  "Traçabilité complète et livraison internationale rapide"
-]
+  "Traçabilité complète et livraison internationale rapide",
+];
 export const productData: ProductDataTypes = {
   vanilla: [
     {
