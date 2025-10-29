@@ -117,48 +117,48 @@ export const productData: ProductDataTypes = {
   spices: [
     {
       name: "Poivre Sauvage (Tsiperifery)",
-      imgSrc: "/images/product/vanilla-4.webp",
-      description: "rare et aromatique, au parfum boisé et citronné.",
+      imgSrc: "/images/product/spice-5.webp",
+      description: "Rare et aromatique, au parfum boisé et citronné.",
     },
     {
       name: "Poivre Noir",
-      imgSrc: "/images/product/vanilla-4.webp",
+      imgSrc: "/images/product/spice-4.webp",
       description:
-        "goût intense, parfait pour assaisonner les plats du quotidien.",
+        "Goût intense, parfait pour assaisonner les plats du quotidien.",
     },
     {
       name: "Baie Rose",
-      imgSrc: "/images/product/vanilla-4.webp",
+      imgSrc: "/images/product/spice-1.webp",
       description:
-        "goût intense, parfait pour assaisonner les plats du quotidien.",
+        "Légèrement sucrée et poivrée, idéale pour les sauces et les grillades",
     },
     {
       name: "Ail Séché",
-      imgSrc: "/images/product/vanilla-4.webp",
+      imgSrc: "/images/product/spice-7.webp",
       description:
-        "pur et savoureux, utilisé dans la cuisine traditionnelle et moderne.",
+        "Pur et savoureux, utilisé dans la cuisine traditionnelle et moderne.",
     },
     {
       name: "Curcuma",
-      imgSrc: "/images/product/vanilla-4.webp",
+      imgSrc: "/images/product/spice-6.webp",
       description:
-        "d’un jaune éclatant, aux vertus antioxydantes et parfum doux.",
+        "D’un jaune éclatant, aux vertus antioxydantes et parfum doux.",
     },
     {
       name: "Gingembre",
-      imgSrc: "/images/product/vanilla-4.webp",
-      description: "racine piquante et aromatique, fraîche ou séchée",
+      imgSrc: "/images/product/spice-3.webp",
+      description: "Racine piquante et aromatique, fraîche ou séchée",
     },
     {
       name: "Combava",
-      imgSrc: "/images/product/vanilla-4.webp",
+      imgSrc: "/images/product/spice-2.webp",
       description:
-        "zeste parfumé et feuilles aromatiques, typiques de Madagascar.",
+        "Zeste parfumé et feuilles aromatiques, typiques de Madagascar.",
     },
     {
       name: "Coriandre",
-      imgSrc: "/images/product/vanilla-4.webp",
-      description: "graines et feuilles, au goût frais et citronné.",
+      imgSrc: "/images/product/spice-8.webp",
+      description: "Graines et feuilles, au goût frais et citronné.",
     },
   ],
 };
